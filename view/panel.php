@@ -39,6 +39,14 @@ $root_path = dirname(ABSPATH);
             <input type="text" name="panel_url" placeholder="Ex: wp-admin">
         </div>
         <input type="submit" value="Block All" name="country_submit">
+
+        <div>
+            <label for="xmlrpc">
+                <?php echo __('Close XMLRPC.', 'textdomain') ?>
+            </label>
+            <input type="checkbox" name="xmlrpc">
+        </div>
+        <input type="submit" value="Block All" name="country_submit">
     </form>
 </div>
 <?php

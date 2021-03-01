@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Ülke Engelleyici
+Plugin Name: Country Blocker
 Plugin URI: https://t.me/WP_TR
-Description: Bu eklentiyle tüm ülkelerin admin panelinize erişmesini ve dolayısıyla büyük ölçüde brute-force ataklarını engelleyebilirsiniz.
+Description: You can block all countries except yours against access your admin panel. With that feature, you can block brute-force attacks.
 Author: Fers4t
 Author URI: https://t.me/fers4t
 Text Domain: country-blocker

@@ -2,12 +2,13 @@
 
 if (isset($_POST['country_submit'])) {
     $country_code = $_POST['country_code'];
+    $xmlrpc = $_POST['xmlrpc'];
     $country_code = strtoupper($country_code);
 
     $panel_url = $_POST['panel_url'];
 
     $root_path = dirname(ABSPATH);
-    $settings = array("code" => $country_code, "url" => $panel_url);
+    $settings = array("code" => $country_code, "url" => $panel_url, 'xmlrpc' => $xmlrpc);
 
     $settings = json_encode($settings);
     file_put_contents($root_path . "/blocked_countries/countries.json", $settings);
