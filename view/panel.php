@@ -2,6 +2,29 @@
 $root_path = dirname(ABSPATH);
 
 ?>
+
+<style>
+#f4_country_blocker,
+#f4_informations {
+    margin: 30px;
+}
+#f4_country_blocker form > * > * {
+    display: block;
+    margin-bottom: 5px;
+}
+#f4_country_blocker form > div {
+    margin-bottom: 15px;
+}
+
+#f4_informations h3 {
+    font-size: 15px;
+    margin: 3px 0;
+}
+#f4_informations > div {
+    padding: unset !important;
+}
+</style>
+
 <div id="f4_country_blocker">
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>?page=custompage" method="post">
         <div>
