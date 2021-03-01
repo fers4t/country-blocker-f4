@@ -3,8 +3,8 @@
 function cb_create_admin_page()
 {
     add_menu_page(
-        __('Ülke Engelleyici', 'textdomain'),
-        'Ülke Engelleyici',
+        __('Country Blocker', 'textdomain'),
+        __('Country Blocker', 'textdomain'),
         'manage_options',
         'custompage',
         'cb_admin_page_view',
