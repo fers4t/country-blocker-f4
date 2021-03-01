@@ -8,7 +8,7 @@ function cb_create_admin_page()
         'manage_options',
         'custompage',
         'cb_admin_page_view',
-        ''
+        'dashicons-flag'
     );
 }
 add_action('admin_menu', 'cb_create_admin_page');
