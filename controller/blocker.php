@@ -47,5 +47,7 @@ $settings = file_get_contents($root_path . "/blocked_countries/countries.json");
         }
         if ($settings['xmlrpc'] == 'on') {
             require_once(CB_PLUGIN_PATH . '/controller/disable_xmlrpc.php');
+        } else {
+            // $htaccess = get_home_path().".htaccess";
         }
     }

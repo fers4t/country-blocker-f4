@@ -10,7 +10,7 @@ Version: 0.1
 */
 
 DEFINE('CB_PLUGIN_PATH', plugin_dir_path(__DIR__) . "country-blocker-f4");
-
+require_once(ABSPATH . 'wp-load.php');
 require_once(CB_PLUGIN_PATH . '/controller/blocker.php');
 require_once(CB_PLUGIN_PATH . '/controller/create_admin_page.php');
 require_once(CB_PLUGIN_PATH . '/controller/folder_controller.php');
