@@ -6,7 +6,7 @@ function cb_create_admin_page()
         __('Country Blocker', 'textdomain'),
         __('Country Blocker', 'textdomain'),
         'manage_options',
-        'custompage',
+        'f4_country_blocker',
         'cb_admin_page_view',
         'dashicons-flag'
     );
