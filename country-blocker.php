@@ -9,7 +9,7 @@ Text Domain: country-blocker
 Version: 0.1
 */
 
-DEFINE('CB_PLUGIN_PATH', plugin_dir_path(__DIR__) . "ulke-engelleyici");
+DEFINE('CB_PLUGIN_PATH', plugin_dir_path(__DIR__) . "country-blocker-f4");
 
 require_once(CB_PLUGIN_PATH . '/controller/blocker.php');
 require_once(CB_PLUGIN_PATH . '/controller/create_admin_page.php');
