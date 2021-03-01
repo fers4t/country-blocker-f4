@@ -45,5 +45,7 @@ $settings = file_get_contents($root_path . "/blocked_countries/countries.json");
             $message = "You've reported. Your ip is $ip";
             die($message);
         }
-        print_p($settings);
+        if ($settings['xmlrpc'] == 'on') {
+            require_once(CB_PLUGIN_PATH . '/controller/disable_xmlrpc.php');
+        }
     }
